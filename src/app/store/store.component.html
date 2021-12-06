@@ -1,0 +1,6 @@
+<button class="btn btn-success"(click)="start()">Start</button>
+<button class="btn btn-danger"(click)="stop()">Stop</button>
+<button class="btn btn-info"(click)="reset()">Reset</button>
+
+<app-renderer [input]="countIncr$ | async"></app-renderer>
+<app-renderer [input]="countDecr$ | async"></app-renderer>

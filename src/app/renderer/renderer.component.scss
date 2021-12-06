@@ -1,0 +1,14 @@
+.renderer {
+  border: solid 2px blue;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 40px;
+  color: blue;
+  max-width: 25%;
+  display: flex;
+  margin: 0 auto;
+
+  &.red {
+    color: red;
+    border-color: red;
+  }
+}
